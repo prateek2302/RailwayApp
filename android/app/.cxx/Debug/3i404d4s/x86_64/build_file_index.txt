@@ -1,0 +1,2 @@
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt

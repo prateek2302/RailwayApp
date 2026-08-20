@@ -1,0 +1,6 @@
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/CMakeFiles/appmodules.dir
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/prateek/Library/Mobile Documents/com~apple~CloudDocs/RailwayApp/android/app/.cxx/Debug/3i404d4s/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir

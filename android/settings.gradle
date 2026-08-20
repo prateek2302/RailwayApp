@@ -1,0 +1,29 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+
+def findNode() {
+    def node = "node"
+    if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+        def commonPaths = ["/usr/local/bin/node", "/opt/homebrew/bin/node"]
+        for (path in commonPaths) {
+            if (new java.io.File(path).exists()) {
+                return path
+            }
+        }
+    }
+    return node
+}
+
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex ->
+    def nodePath = findNode()
+    def cliPath = new java.io.File(settingsDir, "../node_modules/@react-native-community/cli/build/bin.js")
+    if (cliPath.exists()) {
+        ex.autolinkLibrariesFromCommand([nodePath, cliPath.absolutePath, "config"])
+    } else {
+        ex.autolinkLibrariesFromCommand()
+    }
+}
+
+rootProject.name = 'RailwayApp'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')

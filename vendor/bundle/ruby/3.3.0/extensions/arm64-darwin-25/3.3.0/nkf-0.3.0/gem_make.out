@@ -1,0 +1,18 @@
+current directory: /Users/prateek/Downloads/RailwayApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+/opt/homebrew/opt/ruby@3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/prateek/Downloads/RailwayApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260817-23244-1ebdr5 sitelibdir\=./.gem.20260817-23244-1ebdr5 clean
+
+current directory: /Users/prateek/Downloads/RailwayApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260817-23244-1ebdr5 sitelibdir\=./.gem.20260817-23244-1ebdr5
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/prateek/Downloads/RailwayApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260817-23244-1ebdr5 sitelibdir\=./.gem.20260817-23244-1ebdr5 install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20260817-23244-1ebdr5
+
+current directory: /Users/prateek/Downloads/RailwayApp/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20260817-23244-1ebdr5 sitelibdir\=./.gem.20260817-23244-1ebdr5 clean
