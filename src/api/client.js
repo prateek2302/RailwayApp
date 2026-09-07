@@ -1,8 +1,11 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const BASE_URL = 'https://api.railway.example.com'; // Replace with your backend
-
+const BASE_URL = 'http://10.0.2.2:3000'; // Android emulator
 export const apiClient = async (endpoint, {method='GET', body, auth=true}={}) => {
+  if (BASE_URL.includes('.example.com')) {
+    throw new Error('API URL is not configured. Set BASE_URL in src/api/client.js to your backend URL.');
+  }
+
   const headers = {'Content-Type':'application/json'};
   if(auth){
     const token = await AsyncStorage.getItem('token');
